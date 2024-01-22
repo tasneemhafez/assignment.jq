@@ -1,0 +1,166 @@
+:root {
+    scroll-behavior: auto;
+}
+
+#Home {
+    width: 100%;
+    height: 660px;
+    background-image: linear-gradient(rgba(226, 24, 24, 0.75), rgba(224, 61, 61, 0.301)), url(img/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+
+}
+
+#sidBar {
+ 
+
+    position: fixed;
+    top: 0%;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: flex-start;
+}
+
+#sidBar .sidenav {
+    width: 250px;
+    height: 100vh;
+    background-color: #111;
+    padding: 40px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#ico {
+    padding-top: 20rem;
+    padding-left: 40px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+.sidenav a:hover {
+    color: #dc3545;
+}
+
+#close {
+    left: 80%;
+    top: 20px;
+    position: absolute;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.caption {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.caption h2 {
+    font-size: 50px;
+}
+
+#Duration {
+    margin: 100px auto;
+    width: 50%;
+}
+#Duration h3 {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+    cursor: pointer;
+}   
+
+ #Duration .inner {
+    padding: 10px;  
+    background-color: #ccc;
+     display: none; 
+    background-color: #e4dada;
+}  
+
+#count {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(img/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+
+.time {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#count .container {
+    padding: 100px 0;
+    color: beige;
+}
+
+#contact {
+    margin-top: 100px;
+    color: #777;
+    ;
+}
+
+.tex h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #111;
+
+}
+
+.info h3 {
+    font-size: 20px;
+    color: #111;
+    font-weight: bold;
+}
+
+.icons {
+    margin-bottom: 10px;
+}
+
+.social-list i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.social-list i:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+#bar {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 30px;
+
+} 
+
